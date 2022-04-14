@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #F0F2F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 25px;
+}
+
+.container h1{
+    color: #1877F2;
+}
+
+.form{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    background-color: #FFFFFF;
+}
+.login-form input{
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 21px;
+    padding: 13px 18px;
+    border-radius: 7px;
+}
+.login{
+    text-align: center;
+    background-color: #166FE5;
+    width: 81%;
+    margin-top: 12px;
+    margin-left: 21px;
+    padding: 11px;
+    border-radius: 7px;
+}
+.login a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.forgotten-password{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.forgotten-password a{
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 15px;
+}
+
+.create-new-account{
+    text-align: center;
+    margin-top: 60px;
+    background-color: #36A420;
+    width: 50%;
+    margin-left: 68px;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+.create-new-account a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.last{
+    position: absolute;
+    bottom: 15%;
+    padding-left: 59%;
+}
+
+.last p{
+    font-size: 16px;
+    color: #1C1E21;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.last p a{
+    text-decoration: none;
+    color: #1C1E21;
+    font-weight: 800;
+}
