@@ -94,3 +94,40 @@ body{
     color: #1C1E21;
     font-weight: 800;
 }
+
+
+@media screen and (min-width: 990px) {
+    .container{
+        position: absolute;
+        top: 2%;
+    }
+    .form{
+        width: 320px;
+        height: 320px;
+        position: absolute;
+        top: 50%;
+        right: auto;
+        background-color: #FFFFFF;
+    }
+    .last p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    .container{
+        position: absolute;
+        top: 2%;
+    }
+    .form{
+        width: 320px;
+        height: 320px;
+        position: absolute;
+        top: 50%;
+        right: auto;
+        background-color: #FFFFFF;
+    }
+    .last p{
+        display: none;
+    }
+}
